@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Exercise - South African Provinces</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #ffffff;
+        }
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 12px;
+            text-align: center;
+            font-size: 14px;
+        }
+        th {
+            font-weight: bold;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Province</th>
+                <th>Population<br>(2011)</th>
+                <th>Area (km²)</th>
+                <th>Density (per km²)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Gauteng</td>
+                <td>12,272,263</td>
+                <td>18,178</td>
+                <td>675.1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>KwaZulu-Natal</td>
+                <td>10,267,300</td>
+                <td>120,361</td>
+                <td>85.3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mpumalanga</td>
+                <td>4,039,399</td>
+                <td>76,495</td>
+                <td>52.8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Western Cape</td>
+                <td>5,822,734</td>
+                <td>129,422</td>
+                <td>45.0</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Limpopo</td>
+                <td>5,448,868</td>
+                <td>125,755</td>
+                <td>43.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
